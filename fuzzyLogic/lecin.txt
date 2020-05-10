@@ -1,0 +1,33 @@
+2
+op 30
+3
+low triangle
+0 0 50
+medium triangle
+0 50 100
+high triangle
+50 100 100
+pdp 80
+3
+low triangle
+0 0 50
+medium triangle
+0 50 100
+high triangle
+50 100 100
+cp
+5
+verylow triangle
+0 0 25
+low triangle
+0 25 50
+medium triangle
+25 50 75
+high triangle
+50 75 100
+veryhigh triangle
+75 100 100
+3
+op = low AND pdp = medium then cp = low
+op = medium AND pdp = medium then cp = medium
+op = medium AND pdp = high then cp = high
